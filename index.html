@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax- Type Ahead</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+    <h1>Find your country!</h1>
+    <input type="text" id="searchInput" placeholder="Enter a country">
+    <button type="button" id="searchButton">Search</button>
+    </header>
+    <ul id="suggestions"></ul>
+    <div id="noResultsMessage" class="message">No matching results</div>
+    <div id="emptyInputMessage" class="message">Please enter a country</div>
+    <div id="errorContainer" class="error-container">
+        <img src="error-image.jpg" alt="Error icon">
+        <p id="errorMessage"></p>
+        <button id="retryButton">Retry</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
