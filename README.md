@@ -9,7 +9,7 @@ This project implements an AJAX type-ahead feature using vanilla JavaScript. Use
 - Graceful handling of edge cases, such as empty input or no matching results.
 
 ## Demo
-- Live Demo (link to your live demo)
+- Live Demo (https://ajax-ta.netlify.app/)
 - Screenshot of project: ![Project Screenshot](Screenshot.png)
 
 ### Acknowledgment
